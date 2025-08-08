@@ -71,19 +71,19 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/AI Tooling Social Card2.png',
     navbar: {
-      title: 'My Site',
+      title: 'AI Tooling',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'AI Tooling',
         src: 'img/logo.svg',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'docs',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Documentation',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -100,25 +100,25 @@ const config: Config = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Overview',
+              to: '/docs/overview',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Portfolio',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Personal Portfolio',
+              href: 'https://athar-techwriter.vercel.app',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'WhatsApp',
+              href: 'https://wa.me/923001234567?text=Hello%2C%20Dr.%20Athar',
             },
             {
               label: 'X',
-              href: 'https://x.com/docusaurus',
+              href: 'https://x.com/atharkharal',
             },
           ],
         },
@@ -131,12 +131,12 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/AtharKHaral',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Athar Kharal, PhD. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
